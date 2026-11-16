@@ -1,0 +1,67 @@
+body{
+    min-width: 372px;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+#carouselMain {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+#carouselMain .carousel-item {
+    height: 350px;
+    background-color: #111;
+}
+#carouselMain .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+#carouselMain .carousel-item {
+    height: 350px;
+}
+
+#carouselMain .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+/* Grupo de cards */
+.card-group {
+    display: flex;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+/* Cada card */
+.card-group .card {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.card-group .card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.card-group .card-body {
+    padding: 20px;
+}
+

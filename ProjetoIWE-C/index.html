@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+<head>
+<title>Teste</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="bootstrap-5.3.9-dist/bootstrap-5.3.9-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap-5.3.9-dist/bootstrap-5.3.9-dist/css/style.css" />
+</head>
+
+<body>
+    <div class="d-flex flex-column wrapper">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary border-bottom shadow-sm mb-3">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">WorldGeek</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">Veja mais</button>
+  <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    
+    <span class="visually-hidden">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+     <li><a class="dropdown-item" href="camisetas.html">Camisetas</a></li>
+        <li><a class="dropdown-item" href="canecas.html">Canecas</a></li>
+        <li><a class="dropdown-item" href="quadros.html">Quadros</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="coleccionaveis.html">Colecionáveis</a></li>
+  </ul>
+</div>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Mundo criativo e inovador para você</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+ <div class="container">
+            <div id="carouselMain" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="/img/slide5.jpg" class="d-none d-md-block w-100" alt="">
+                        <img src="/img/slide5small.jpg" class="d-block d-md-none  w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/img/slide4.jpg" class="d-none d-md-block w-100" alt="">
+                        <img src="/img/slide4small.jpg" class="d-block d-md-none  w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="/img/slide3.jpg" class="d-none d-md-block w-100" alt="">
+                        <img src="/img/slide3small.jpg" class="d-block d-md-none  w-100" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+            <hr class="mt-3">
+        </div>
+
+
+
+<main class="flex-fill">
+    <div class="container">
+         <div class="row">
+             <div class="col-12 col-md-5">
+               <form class="justify-content-center justify-content-md-start mb-3 mb-md-0">
+                       <div class="input-group input-group-sm">
+                                <input type="text" class="form-control" placeholder="Digite aqui o que procura">
+                                <button class="btn btn-primary">Buscar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                            <form class="d-inline-block">
+                                <select class="form-select form-select-sm">
+                                    <option>Ordenar pelo nome</option>
+                                    <option>Ordenar pelo menor preço</option>
+                                    <option>Ordenar pelo maior preço</option>
+                                </select>
+                            </form>
+                            <nav class="d-inline-block me-3">
+                                <ul class="pagination pagination-sm my-0">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">4</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">5</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">6</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+       </div>
+</main>
+
+<div class="card-group">
+  <div class="card">
+    <img src="img/card1.jpg" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">roupas</h5>
+      <p class="card-text">R$ 99,90</p>
+      <p class="card-text">roupas para você ficar estiloso </p>
+      <p class="card-text"><small class="text-body-secondary"> <a href="https://www.veinerd.com" class="btn btn-primary btn-sm">acessar</a></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/card2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">canecas</h5>
+      <p class="card-text">R$ 19,90</p>
+      <p class="card-text">canecas 100% personalizada e ao seu gosto</p>
+      <p class="card-text"><small class="text-body-secondary"> <a href="https://mais1nerd.com.br/categoria/canecas/?srsltid=AYCX9vL164cC8o9ivPAWT_u4eDsacKWxTw2TompDV1rxV6CJ_DkaRkwJ" class="btn btn-primary btn-sm">acessar </a></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/card3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">funko pop</h5>
+      <p class="card-text">R$ 29,90</p>
+      <p class="card-text">funko pop para você colecionar</p>
+      <p class="card-text"><small class="text-body-secondary"> <a href="https://www.geralgeek.com.br/?srsltid=AYCX9vL-X3ymFa2Mddo8Mvn9WnNtuWnCEPvRz2nhsMwiUUPlFd6Kil2H" class="btn btn-primary btn-sm">acessar </a></small></p>
+    </div>
+  </div>
+</div>
+
+<center>
+<footer class="border-top text-muted bg-light">
+    <div class="container">
+            <div class="col-4 text-center">
+                <p>&copy; 2026 - WorldGeek - Todos os direitos reservados.</p>
+            </div>
+    </div>
+</footer>
+</center>
+
+
+
+
+</div>
+    <script src="bootstrap-5.3.9-dist/bootstrap-5.3.9-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
